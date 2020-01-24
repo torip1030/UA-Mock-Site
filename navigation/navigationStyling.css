@@ -1,0 +1,293 @@
+.topBar{
+    color: white;
+    display: inline-flex;
+    width: 100%;
+    position: fixed;
+    height: 2.5rem;
+    z-index: 100;
+}
+
+.headerMsg{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    top:0px;
+    left:0;
+    display: flex;
+    justify-content: center;
+    padding:.5rem;
+}
+
+.rightHelpLinks{
+    background-color: black;
+    display: inline-flex;
+    position: fixed;
+    top:0;
+    right:0;
+    padding:.5rem;
+}
+
+.rightHelpLink{
+    padding-right: 1.5rem;
+}
+
+.flagImg{
+    height: 12px;
+    width: auto;
+    padding-bottom: 2px;
+}
+
+.navBar{
+    display: inline-flex;
+    width: 100%;
+    position: fixed;
+    top: 3rem;
+    min-height: 80px;
+    z-index: 100;
+    background-color: white;
+    align-items: center;
+}
+
+.navBarLogoLeft{
+    position: fixed;
+    left:0;
+    width: 100%;
+}
+
+.navBarLogoImg{
+    position: relative;
+    height: 80px;
+}
+
+.navBarContent{
+    position: fixed;
+    left: 80px;
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding-right: 160px;
+    font-size: 2rem;
+}
+
+.navBarItem{
+    padding: 2rem;
+    height: 100%;
+    align-content: center;
+    display: grid;
+}
+
+.navBarUtil{
+    position: fixed;
+    right:0;
+    background-color: white;
+    display: inline-flex;
+    align-items: center;
+    height: 80px;
+}
+
+.searchIcon{
+    top:3px;
+}
+
+.navBarIcon{
+    font-size: 3rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    height: 100%;
+    padding-top: 22px;
+}
+
+.navBarIcon:hover{
+    border-bottom: 5px solid black;
+}
+
+.departmentDropdown{
+    width: 100%;
+    position: absolute;
+    top: 80px;
+    left:-80px;
+    justify-content: center;
+    display: none;
+    font-size: 14px;
+    border-top: 2px solid #757575;
+    border-bottom: 2px solid #757575;
+}
+
+.navBarItem:hover{
+    border-bottom: 5px solid black;
+}
+
+.navBarItem:hover .departmentDropdown{
+    display: inline-flex;
+    background-color: white;
+}
+
+.deptCol{
+    margin-right: 2rem;
+    margin-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.categoryLinkItem{
+    color: #545454;
+    margin-top: 5px;
+}
+
+.red{
+    color: red;
+}
+
+.categoryLinkItem:hover{
+    color: #757575;
+}
+
+.verticalLine{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    border-right: 1px solid black;
+}
+
+.dealBanner{
+    background-color: #dcdcdc;
+    height: 80px;
+    position: relative;
+    top: 110px;
+    justify-content: center;
+    padding-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.bannerItem{
+    display: flex;
+    justify-content: center;
+}
+
+.redBannerItem{
+    display: flex;
+    justify-content: center;
+    color: red;
+    font-weight: bold;
+}
+
+.favoriteItem{
+    display: inline-flex;
+    height: auto;
+    width: 200px;
+    background-color: white;
+    padding: 5px;
+    justify-content: left;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.favoriteItem:hover {
+    background-color: #dcdcdc;
+}
+
+.miniProductImg{
+    height: 50px;
+    width: auto;
+}
+
+.miniProductTitle{
+    padding-left: 5px;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.favoritesList{
+    position: fixed;
+    top: 110px;
+    right: 50px;
+    border: 1px solid black;
+    display: none;
+}
+
+.glyphicon-heart:hover{
+    color: red;
+}
+
+.glyphicon-heart:hover .favoritesList{
+    display: grid;
+    color: black;
+}
+
+@media screen and (max-width: 1254px){
+    .navBarContent{
+        padding-right: 300px;
+    }
+}
+
+@media screen and (max-width: 1110px){
+    .navBarContent{
+        padding-right: 400px;
+    }
+}
+
+@media screen and (max-width: 1013px){
+    .navBarItem{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 905px){
+    .navBarContent{
+        left: 0;
+        top: 95px;
+        padding-right: 0;
+        width: 100vw;
+    }
+    .headerMsg{
+        justify-content: left;
+    }
+    .departmentDropdown{
+        left: 0;
+    }
+    .dealBanner{
+        top:175px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .navBarLogoImg{
+        position: relative;
+        height: 60px;
+    }
+    input{
+        width: 100px;
+    }
+    body{
+        font-size: 10px;
+    }
+    .navBar{
+        top: 2.3rem;
+    }
+    .favoritesList{
+        top: 105px;
+    }
+    .navBarContent{
+        top: 85px;
+    }
+    .dealBanner{
+        top: 165px;
+    }
+}
+
+@media screen and (max-width: 534px){
+    .rightHelpLinks{
+        display:none;
+    }
+    .headerMsg{
+        justify-content: center;
+    }
+    .navBarContent{
+        font-size: 14px;
+    }
+    .navBarItem{
+        padding: .5rem;
+    }
+}

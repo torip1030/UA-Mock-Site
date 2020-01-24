@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Victoria Pruim</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="navigation/navigation.js"></script>
+    <script src="product/favorite.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="pageContentStyling.css">
+    <link rel="stylesheet" href="product/productStyling.css">
+    <link rel="stylesheet" href="navigation/navigationStyling.css">
+    <link rel="stylesheet" href="footerStyling.css">
+</head>
+
+<body onscroll="showTopButton()">
+    <div class="topBar">
+        <div class="headerMsg">FREE Shipping and 99% off everything for Tori Pruim</div>
+        <div class="rightHelpLinks">
+            <div class="rightHelpLink">
+                <img class="flagImg" src="navigation/usFlagImg.png">
+                US
+                <i class="glyphicon glyphicon-chevron-down arrowIcon"></i>
+            </div>
+            <div class="rightHelpLink">Stores</div>
+            <div class="rightHelpLink">Login</div>
+        </div>
+    </div>
+
+    <div class="navBar">
+        <div class="navBarLogoLeft">
+            <img class="navBarLogoImg" src="navigation/navBarLogo.png">
+        </div>
+        <div class="navBarContent">
+            <div class="navBarItem">MEN
+                <div class="departmentDropdown">
+                    <div class="row">
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">FEATURED</div>
+                            <div class="red">The Semi-Annual Event</div>
+                            <div class="categoryLinkItem">New Arrivals</div>
+                            <div class="categoryLinkItem">Best Sellers</div>
+                            <div class="categoryLinkItem">ColdGear® Under $50</div>
+                            <div class="categoryLinkItem">2020 Resolutions</div>
+                            <div class="categoryLinkItem">UA Fleece Collection</div>
+                            <div class="categoryLinkItem">3 for $50 Boxerjock®</div>
+                            <div class="categoryLinkItem">Outlet</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY CATEGORY</div>
+                            <div class="categoryLinkItem">Accessories</div>
+                            <div class="categoryLinkItem">Bottoms</div>
+                            <div class="categoryLinkItem">Outerwear</div>
+                            <div class="categoryLinkItem">Shoes</div>
+                            <div class="categoryLinkItem">Tops</div>
+                            <div class="categoryLinkItem">Underwear</div>
+                            <div class="categoryLinkItem">Shop All Men's</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY SPORT</div>
+                            <div class="categoryLinkItem">All Men's Sports</div>
+                            <div class="categoryLinkItem">Basketball</div>
+                            <div class="categoryLinkItem">Football</div>
+                            <div class="categoryLinkItem">Golf</div>
+                            <div class="categoryLinkItem">Hunting</div>
+                            <div class="categoryLinkItem">Military & Tactical</div>
+                            <div class="categoryLinkItem">Running</div>
+                            <div class="categoryLinkItem">Soccer</div>
+                            <div class="categoryLinkItem">Training</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY COLLECTION</div>
+                            <div class="categoryLinkItem">UA RUSH™</div>
+                            <div class="categoryLinkItem">UA HOVR™</div>
+                            <div class="categoryLinkItem">UA Recover</div>
+                            <div class="categoryLinkItem">UA XPRESS Customized Gear</div>
+                            <div class="categoryLinkItem">Tall Sizes</div>
+                            <div class="categoryLinkItem">College Fan Gear</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navBarItem">WOMEN
+                <div class="departmentDropdown">
+                    <div class="row">
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">FEATURED</div>
+                            <div class="red">The Semi-Annual Event</div>
+                            <div class="categoryLinkItem">New Arrivals</div>
+                            <div class="categoryLinkItem">Best Sellers</div>
+                            <div class="categoryLinkItem">ColdGear® Under $50</div>
+                            <div class="categoryLinkItem">2020 Resolutions</div>
+                            <div class="categoryLinkItem">NEW: UA Plus Size</div>
+                            <div class="categoryLinkItem">UA Fleece Collection</div>
+                            <div class="categoryLinkItem">Outlet</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY CATEGORY</div>
+                            <div class="categoryLinkItem">Accessories</div>
+                            <div class="categoryLinkItem">Bottoms</div>
+                            <div class="categoryLinkItem">Outerwear</div>
+                            <div class="categoryLinkItem">Shoes</div>
+                            <div class="categoryLinkItem">Sports Bras</div>
+                            <div class="categoryLinkItem">Tops</div>
+                            <div class="categoryLinkItem">Shop All Women's</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY SPORT</div>
+                            <div class="categoryLinkItem">All Women's Sports</div>
+                            <div class="categoryLinkItem">Golf</div>
+                            <div class="categoryLinkItem">Running</div>
+                            <div class="categoryLinkItem">Soccer</div>
+                            <div class="categoryLinkItem">Training</div>
+                            <div class="categoryLinkItem">Volleyball</div>
+                            <div class="categoryLinkItem">Yoga & Studio</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY COLLECTION</div>
+                            <div class="categoryLinkItem">UA RUSH™</div>
+                            <div class="categoryLinkItem">UA HOVR™</div>
+                            <div class="categoryLinkItem">UA Recover</div>
+                            <div class="categoryLinkItem">UA XPRESS Customized Gear</div>
+                            <div class="categoryLinkItem">College Fan Gear</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navBarItem">BOYS
+                <div class="departmentDropdown">
+                    <div class="row">
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">FEATURED</div>
+                            <div class="red">The Semi-Annual Event</div>
+                            <div class="categoryLinkItem">New Arrivals</div>
+                            <div class="categoryLinkItem">Best Sellers</div>
+                            <div class="categoryLinkItem">ColdGear® Under $50</div>
+                            <div class="categoryLinkItem">UA Fleece Collection</div>
+                            <div class="categoryLinkItem">Outlet</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY CATEGORY</div>
+                            <div class="categoryLinkItem">Accessories</div>
+                            <div class="categoryLinkItem">Bottoms</div>
+                            <div class="categoryLinkItem">Outerwear</div>
+                            <div class="categoryLinkItem">Shoes</div>
+                            <div class="categoryLinkItem">Tops</div>
+                            <div class="categoryLinkItem">Underwear</div>
+                            <div class="categoryLinkItem">Shop All Boy's</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY SPORT</div>
+                            <div class="categoryLinkItem">All Boys's Sports</div>
+                            <div class="categoryLinkItem">Baseball</div>
+                            <div class="categoryLinkItem">Basketball</div>
+                            <div class="categoryLinkItem">Football</div>
+                            <div class="categoryLinkItem">Golf</div>
+                            <div class="categoryLinkItem">Soccer</div>
+                            <div class="categoryLinkItem">Training</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY COLLECTION</div>
+                            <div class="categoryLinkItem">Big Kid</div>
+                            <div class="categoryLinkItem">Little Kid</div>
+                            <div class="categoryLinkItem">Toddler</div>
+                            <div class="categoryLinkItem">Infant</div>
+                            <div class="categoryLinkItem">Newborn</div>
+                            <div class="categoryLinkItem">UA XPRESS Customized Gear</div>
+                            <div class="categoryLinkItem">College Fan Gear</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="navBarItem">GIRLS
+                <div class="departmentDropdown">
+                    <div class="row">
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">FEATURED</div>
+                            <div class="red">The Semi-Annual Event</div>
+                            <div class="categoryLinkItem">New Arrivals</div>
+                            <div class="categoryLinkItem">Best Sellers</div>
+                            <div class="categoryLinkItem">ColdGear® Under $50</div>
+                            <div class="categoryLinkItem">UA Fleece Collection</div>
+                            <div class="categoryLinkItem">Outlet</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY CATEGORY</div>
+                            <div class="categoryLinkItem">Accessories</div>
+                            <div class="categoryLinkItem">Bottoms</div>
+                            <div class="categoryLinkItem">Outerwear</div>
+                            <div class="categoryLinkItem">Shoes</div>
+                            <div class="categoryLinkItem">Tops</div>
+                            <div class="categoryLinkItem">Shop All Girls'</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY SPORT</div>
+                            <div class="categoryLinkItem">All Girls's Sports</div>
+                            <div class="categoryLinkItem">Basketball</div>
+                            <div class="categoryLinkItem">Dance</div>
+                            <div class="categoryLinkItem">Soccer</div>
+                            <div class="categoryLinkItem">Softball</div>
+                            <div class="categoryLinkItem">Training</div>
+                            <div class="categoryLinkItem">Volleyball</div>
+                            <div class="categoryLinkItem">Yoga & Studio</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY COLLECTION</div>
+                            <div class="categoryLinkItem">Big Kid</div>
+                            <div class="categoryLinkItem">Little Kid</div>
+                            <div class="categoryLinkItem">Toddler</div>
+                            <div class="categoryLinkItem">Infant</div>
+                            <div class="categoryLinkItem">Newborn</div>
+                            <div class="categoryLinkItem">UA XPRESS Customized Gear</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navBarItem">SHOES
+                <div class="departmentDropdown">
+                    <div class="row">
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">FEATURED</div>
+                            <div class="categoryLinkItem">New Arrivals</div>
+                            <div class="categoryLinkItem">Launch Calendar</div>
+                            <div class="categoryLinkItem">Curry 7</div>
+                            <div class="categoryLinkItem">Boots</div>
+                            <div class="categoryLinkItem">Best Sellers</div>
+                            <div class="categoryLinkItem">Outlet</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY GENDER</div>
+                            <div class="categoryLinkItem">Men's</div>
+                            <div class="categoryLinkItem">Women's</div>
+                            <div class="categoryLinkItem">Boys'</div>
+                            <div class="categoryLinkItem">Girls'</div>
+                            <div class="categoryLinkItem">Shop All Shoes</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY SPORT</div>
+                            <div class="categoryLinkItem">Basketball</div>
+                            <div class="categoryLinkItem">Baseball</div>
+                            <div class="categoryLinkItem">Football</div>
+                            <div class="categoryLinkItem">Golf</div>
+                            <div class="categoryLinkItem">Hiking & Trail</div>
+                            <div class="categoryLinkItem">Lacrosse</div>
+                            <div class="categoryLinkItem">Running</div>
+                            <div class="categoryLinkItem">Slides & Sandals</div>
+                            <div class="categoryLinkItem">Softball</div>
+                            <div class="categoryLinkItem">Training</div>
+                            <div class="categoryLinkItem">Volleyball</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">SHOP BY COLLECTION</div>
+                            <div class="categoryLinkItem">UA RUSH™</div>
+                            <div class="categoryLinkItem">Cleats & Spikes</div>
+                            <div class="categoryLinkItem">Sportstyle</div>
+                            <div class="categoryLinkItem">Widths</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="navBarItem">OUTLET
+                <div class="departmentDropdown">
+                    <div class="row">
+                        <div class="col3 deptCol">
+                            <div>FEATURED</div>
+                            <div class="red">The Semi-Annual Event</div>
+                            <br>
+                            <div class="font-weight-bold">SHOP ALL OUTLET</div>
+                        </div>
+                        <div class="verticalLine"></div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">MEN</div>
+                            <div class="categoryLinkItem">Accessories</div>
+                            <div class="categoryLinkItem">Bottoms</div>
+                            <div class="categoryLinkItem">Outerwear</div>
+                            <div class="categoryLinkItem">Shirts & Tops</div>
+                            <div class="categoryLinkItem">Shoes</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">WOMEN</div>
+                            <div class="categoryLinkItem">Accessories</div>
+                            <div class="categoryLinkItem">Bottoms</div>
+                            <div class="categoryLinkItem">Outerwear</div>
+                            <div class="categoryLinkItem">Shirts & Tops</div>
+                            <div class="categoryLinkItem">Shoes</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">BOYS</div>
+                            <div class="categoryLinkItem">Accessories</div>
+                            <div class="categoryLinkItem">Bottoms</div>
+                            <div class="categoryLinkItem">Outerwear</div>
+                            <div class="categoryLinkItem">Shirts & Tops</div>
+                            <div class="categoryLinkItem">Shoes</div>
+                        </div>
+                        <div class="col3 deptCol">
+                            <div class="font-weight-bold">GIRLS</div>
+                            <div class="categoryLinkItem">Accessories</div>
+                            <div class="categoryLinkItem">Bottoms</div>
+                            <div class="categoryLinkItem">Outerwear</div>
+                            <div class="categoryLinkItem">Shirts & Tops</div>
+                            <div class="categoryLinkItem">Shoes</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="navBarUtil">
+            <input type="text" placeholder="Search">
+            <button type="submit">
+                <i class="glyphicon glyphicon glyphicon-search searchIcon"></i>
+            </button>
+            <i class="glyphicon glyphicon-heart navBarIcon">
+                <div class="favoritesList">
+                </div>
+            </i>
+            <i class="glyphicon glyphicon-shopping-cart navBarIcon"></i>
+        </div>
+    </div>
+
+    <div class="dealBanner">
+        <div class="bannerItem">UP TO 50% OFF OUTLET</div>
+        <div class="redBannerItem">THE SEMI-ANNUAL EVENT IS ON</div>
+        <div class="bannerItem"><div class="font-weight-bold">1000s of items just added.</div> No code needed.</div>
+    </div>
+
+    <div class="pageWrapper">
+        <div class="pageContent">
+            <div class="pageTitleRow">
+                <div class="titleColumn">
+                    <div class="pageTitle">Women's Tops</div>
+                    <div class="pageRoute">Women's / Tops</div>
+                </div>
+                <div class="sortColumn">
+                    <div class="results">431 Results</div>
+                    <select title="Revelance">
+                        <option>Revelance</option>
+                        <option>Newest</option>
+                        <option>Highest Rated</option>
+                        <option>Best Selling</option>
+                        <option>$-$$$</option>
+                        <option>$$$-$</option>
+                    </select>
+                </div>
+            </div>
+            <div class="categoriesRow">
+                <div class="category">GENDER<i class="glyphicon glyphicon-chevron-down arrowIcon"></i></div>
+                <div class="category">CATEGORY<i class="glyphicon glyphicon-chevron-down arrowIcon"></i></div>
+                <div class="category">COLOR<i class="glyphicon glyphicon-chevron-down arrowIcon"></i></div>
+                <div class="category">SIZE & FIT<i class="glyphicon glyphicon-chevron-down arrowIcon"></i></div>
+                <div class="category">SPORT<i class="glyphicon glyphicon-chevron-down arrowIcon"></i></div>
+                <div class="category">TECHNOLOGY<i class="glyphicon glyphicon-chevron-down arrowIcon"></i></div>
+                <div class="category">PRICE RANGE<i class="glyphicon glyphicon-chevron-down arrowIcon"></i></div>
+            </div>
+            <div class="selectedCategoriesRow">
+                <div class="selectedCategory">Women's<i class="glyphicon glyphicon glyphicon-remove"></i></div>
+                <div class="selectedCategory">Tops<i class="glyphicon glyphicon glyphicon-remove"></i></div>
+            </div>
+            <ul class="productRow">
+                <li class="productWrapper ">
+                    <img class="productImg" alt="Red tank top" src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_FC_Main?template=v65GridLarge&$wid=281&$hei=345">
+                    <img class="altProductImg" alt="Back of red tank top"src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_BC?template=v65GridLarge&$wid=281&$hei=345">
+                    <div onclick="favoriteProduct(this)">
+                        <i class="glyphicon glyphicon-heart productHeartIcon"></i>
+                    </div>
+                    <div class="productInfo">9 Colors Available</div>
+                    <div class="productTitle">UA Knockout</div>
+                    <div class="productInfo">Women's Tank Top</div>
+                    <div class="productInfo">$35.00</div>
+                    <div class="quickView">QUICKVIEW</div>
+                </li>
+                <li class="productWrapper ">
+                    <img class="productImg" alt="Red tank top" src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_FC_Main?template=v65GridLarge&$wid=281&$hei=345">
+                    <img class="altProductImg" alt="Back of red tank top"src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_BC?template=v65GridLarge&$wid=281&$hei=345">
+                    <div onclick="favoriteProduct(this)">
+                        <i class="glyphicon glyphicon-heart productHeartIcon"></i>
+                    </div>
+                    <div class="productInfo">9 Colors Available</div>
+                    <div class="productTitle">UA Knockout</div>
+                    <div class="productInfo">Women's Tank Top</div>
+                    <div class="productInfo">$35.00</div>
+                    <div class="quickView">QUICKVIEW</div>
+                </li>
+                <li class="productWrapper ">
+                    <img class="productImg" alt="Red tank top" src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_FC_Main?template=v65GridLarge&$wid=281&$hei=345">
+                    <img class="altProductImg" alt="Back of red tank top"src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_BC?template=v65GridLarge&$wid=281&$hei=345">
+                    <div onclick="favoriteProduct(this)">
+                        <i class="glyphicon glyphicon-heart productHeartIcon"></i>
+                    </div>
+                    <div class="productInfo">9 Colors Available</div>
+                    <div class="productTitle">UA Knockout</div>
+                    <div class="productInfo">Women's Tank Top</div>
+                    <div class="productInfo">$35.00</div>
+                    <div class="quickView">QUICKVIEW</div>
+                </li>
+                <li class="productWrapper ">
+                    <img class="productImg" alt="Red tank top" src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_FC_Main?template=v65GridLarge&$wid=281&$hei=345">
+                    <img class="altProductImg" alt="Back of red tank top"src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_BC?template=v65GridLarge&$wid=281&$hei=345">
+                    <div onclick="favoriteProduct(this)">
+                        <i class="glyphicon glyphicon-heart productHeartIcon"></i>
+                    </div>
+                    <div class="productInfo">9 Colors Available</div>
+                    <div class="productTitle">UA Knockout</div>
+                    <div class="productInfo">Women's Tank Top</div>
+                    <div class="productInfo">$35.00</div>
+                    <div class="quickView">QUICKVIEW</div>
+                </li>
+                <li class="productWrapper ">
+                    <img class="productImg" alt="Red tank top" src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_FC_Main?template=v65GridLarge&$wid=281&$hei=345">
+                    <img class="altProductImg" alt="Back of red tank top"src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_BC?template=v65GridLarge&$wid=281&$hei=345">
+                    <div onclick="favoriteProduct(this)">
+                        <i class="glyphicon glyphicon-heart productHeartIcon"></i>
+                    </div>
+                    <div class="productInfo">9 Colors Available</div>
+                    <div class="productTitle">UA Knockout</div>
+                    <div class="productInfo">Women's Tank Top</div>
+                    <div class="productInfo">$35.00</div>
+                    <div class="quickView">QUICKVIEW</div>
+                </li>
+                <li class="productWrapper ">
+                    <img class="productImg" alt="Red tank top" src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_FC_Main?template=v65GridLarge&$wid=281&$hei=345">
+                    <img class="altProductImg" alt="Back of red tank top"src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_BC?template=v65GridLarge&$wid=281&$hei=345">
+                    <div onclick="favoriteProduct(this)">
+                        <i class="glyphicon glyphicon-heart productHeartIcon"></i>
+                    </div>
+                    <div class="productInfo">9 Colors Available</div>
+                    <div class="productTitle">UA Knockout</div>
+                    <div class="productInfo">Women's Tank Top</div>
+                    <div class="productInfo">$35.00</div>
+                    <div class="quickView">QUICKVIEW</div>
+                </li>
+                <li class="productWrapper ">
+                    <img class="productImg" alt="Red tank top" src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_FC_Main?template=v65GridLarge&$wid=281&$hei=345">
+                    <img class="altProductImg" alt="Back of red tank top"src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_BC?template=v65GridLarge&$wid=281&$hei=345">
+                    <div onclick="favoriteProduct(this)">
+                        <i class="glyphicon glyphicon-heart productHeartIcon"></i>
+                    </div>
+                    <div class="productInfo">9 Colors Available</div>
+                    <div class="productTitle">UA Knockout</div>
+                    <div class="productInfo">Women's Tank Top</div>
+                    <div class="productInfo">$35.00</div>
+                    <div class="quickView">QUICKVIEW</div>
+                </li>
+                <li class="productWrapper ">
+                    <img class="productImg" alt="Red tank top" src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_FC_Main?template=v65GridLarge&$wid=281&$hei=345">
+                    <img class="altProductImg" alt="Back of red tank top"src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_BC?template=v65GridLarge&$wid=281&$hei=345">
+                    <div onclick="favoriteProduct(this)">
+                        <i class="glyphicon glyphicon-heart productHeartIcon"></i>
+                    </div>
+                    <div class="productInfo">9 Colors Available</div>
+                    <div class="productTitle">UA Knockout</div>
+                    <div class="productInfo">Women's Tank Top</div>
+                    <div class="productInfo">$35.00</div>
+                    <div class="quickView">QUICKVIEW</div>
+                </li>
+                <li class="productWrapper ">
+                    <img class="productImg" alt="Red tank top" src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_FC_Main?template=v65GridLarge&$wid=281&$hei=345">
+                    <img class="altProductImg" alt="Back of red tank top"src="https://underarmour.scene7.com/is/image/Underarmour/V5-1351596-628_BC?template=v65GridLarge&$wid=281&$hei=345">
+                    <div onclick="favoriteProduct(this)">
+                        <i class="glyphicon glyphicon-heart productHeartIcon"></i>
+                    </div>
+                    <div class="productInfo">9 Colors Available</div>
+                    <div class="productTitle">UA Knockout</div>
+                    <div class="productInfo">Women's Tank Top</div>
+                    <div class="productInfo">$35.00</div>
+                    <div class="quickView">QUICKVIEW</div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <img class="footerLogo" src="Font-Under-Armour-Logo.jpg">
+        <div class="footerContent">
+            <div class="footerCol">
+                CUSTOMER SERVICE
+                <div class="row">
+                    <div class="footerLinkColumn">
+                        <div class="footerLink">Help & FAQs</div>
+                        <div class="footerLink">Returns & Exchanges</div>
+                        <div class="footerLink">Order Tracking</div>
+                        <div class="footerLink">Shipping & Delivery</div>
+                        <div class="footerLink">Change Location</div>
+                        <div class="footerLink">Store Locator</div>
+                    </div>
+                    <div class="footerLinkColumn">
+                        <div class="footerLink">Promos & Offers</div>
+                        <div class="footerLink">Size Charts</div>
+                        <div class="footerLink">Gift Cards</div>
+                        <div class="footerLink">Do Not Sell My Personal Information</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerCol">
+                ABOUT UNDER ARMOUR
+                <div class="row">
+                    <div class="footerLinkColumn">
+                        <div class="footerLink">About Us</div>
+                        <div class="footerLink">UA Newsroom</div>
+                        <div class="footerLink">Careers</div>
+                        <div class="footerLink">UA Community</div>
+                        <div class="footerLink">Investor Relations</div>
+                    </div>
+                    <div class="footerLinkColumn">
+                        <div class="footerLink">Affiliates</div>
+                        <div class="footerLink">Product Recalls</div>
+                        <div class="footerLink">Business Development</div>
+                        <div class="footerLink">Site Map</div>
+                        <div class="footerLink">Corporate Sales</div>
+                    </div>
+                </div>
+            </div>
+            <div class="footerCol">
+                GET FREE SHIPPING ON YOUR NEXT ORDER
+                <div class="footerLink">This web page is meant to be a display of my HTML, CSS, and JavaScript
+                    abilities.</div>
+                <div class="footerLink">I respect all Under Armour Copyrights.</div>
+            </div>
+        </div>
+    </div>
+    <button id="topButton" class="topButtonWrapper" onclick="goToTop()">
+        <i class="glyphicon glyphicon-chevron-up"></i>
+        <div>TOP</div>
+    </button>
+</body>
+
+</html>

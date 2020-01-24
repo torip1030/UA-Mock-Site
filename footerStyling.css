@@ -1,0 +1,49 @@
+.footer{
+    border-top: 3px solid black;
+    height: 100px;
+    width: 100vw;
+    position: relative;
+    top: 100px;
+}
+
+.footerLogo{
+    width: 200px;
+    height: auto;
+    margin: 1rem;
+}
+
+.footerContent{
+    border-top: 1px solid black;
+    background-color: #dcdcdc;
+    display: inline-flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 4rem;
+}
+
+.footerCol{
+    width: 100%;
+    font-weight: bold;
+}
+
+.footerLinkColumn{
+    margin-left: 1rem;
+}
+
+.footerLink{
+    font-weight: normal;
+    color: #545454;
+}
+
+.footerLink:hover{
+    color: #757575;
+}
+
+@media screen and (max-width: 905px){
+    .footer{
+        top: 150px;
+    }
+    .footerContent{
+        padding: 1rem;
+    }
+}
